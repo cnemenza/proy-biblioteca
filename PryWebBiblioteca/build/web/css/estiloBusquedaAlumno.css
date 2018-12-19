@@ -1,0 +1,63 @@
+body{
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece7e5;
+}
+#CuadroConsulta{
+
+}
+
+td{
+    padding: 7px;
+    border: 2px solid black;
+}
+.primColum{
+    background-color: #C05D5D;
+    padding: 7px;
+    border: 2px solid black;
+    font-size: 22px;
+}
+
+.botones{
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #C05D5D;
+    border-radius: 6px;
+}
+
+.botones:hover{
+    color: black;
+    background-color: white;
+  }
+  table{
+      margin-bottom: 15px;
+  }
+  
+  input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+#seleccion td{
+    background-color: black;
+}
+
+#seleccion tr td a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    padding: 15px 20px;
+    font-weight: 800;
+}
+
+#seleccion td:hover{
+    background-color: #C05D5D;
+}
+  

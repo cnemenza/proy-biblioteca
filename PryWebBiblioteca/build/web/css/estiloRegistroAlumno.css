@@ -1,0 +1,50 @@
+body{
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ece7e5;
+}
+.botones{
+       text-decoration: none;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #C05D5D;
+    border-radius: 6px;
+}
+
+.botones:hover{
+    color: black;
+    background-color: white;
+  }
+    td{
+      font-size: 20px;
+    padding: 7px;
+
+  }
+  
+     table{
+      margin-bottom: 15px;
+  }
+  
+  #CuadroConsulta{
+      margin-top: 20px;
+  }
+  
+  #general{
+       border: 2px solid black;
+    padding: 5px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-top: 40px;
+        background-color: antiquewhite;
+  }
+  
+  input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  outline: none;
+}
